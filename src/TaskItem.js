@@ -20,7 +20,7 @@ const TaskItem = ({ task, deleteTask, markTaskCompleted }) => {
   const handleReminderTimeChange = (e) => {
     setReminderTime(e.target.value);
   };
-
+  
   return (
     <li className={`task-item ${task.completed ? 'completed' : ''}`}>
         {task.task}
