@@ -1,6 +1,6 @@
 .head{
   position:relative;
-  left: 39%;
+  left: 35%;
   align-items: center;
 }
 .task-item {
@@ -11,13 +11,6 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 8px;
-}
-
-.task-text {
-  flex-grow: 1;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .task-item.completed {
@@ -34,7 +27,7 @@
 
 .task-input {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 3px solid black;
   border-radius: 4px;
   margin-right: 8px;
   font-size: 16px;
@@ -43,16 +36,15 @@
 
 .task-button {
   padding: 8px 16px;
-  background-color: black;
-  color: #fff;
-  border: none;
+  color: black;
+  border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
 }
 
 .task-button:hover {
-  background-color: black;
+  background-color:transparent;
 }
 
 
@@ -70,9 +62,8 @@
 
 .delete-button {
   padding: 8px 16px;
-  color: #fff;
-  background-color:black ;
-  border: none;
+  color: black;
+  border: 2px solid black;
   cursor: pointer;
   border-radius: 4px;
   font-size: 12px;
@@ -83,15 +74,14 @@
 
 .complete-button {
   padding: 8px 16px;
-  color: #fff;
-  background-color: blue;
-  border: none;
+  color: black;
+  border: 2px solid #a449e465;
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
 }
 .complete-button :hover{
-  background-color: blue;
+  background-color: #a449e465;
 }
 
 .task-checkbox {

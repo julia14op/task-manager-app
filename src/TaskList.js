@@ -8,8 +8,9 @@ const TaskList = ({ tasks, deleteTask, markTaskCompleted }) => {
         <TaskItem
           key={task.id}
           task={task}
-          deleteTask={deleteTask}
           markTaskCompleted={markTaskCompleted}
+          deleteTask={deleteTask}
+          
         />
       ))}
     </ul>

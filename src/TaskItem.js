@@ -46,14 +46,15 @@ const TaskItem = ({ task, deleteTask, markTaskCompleted }) => {
        
 
       <div className="task-buttons">
-        <button className="delete-button" onClick={handleDelete}>
-          Delete
-        </button>
-        {!task.completed && (
+      {!task.completed && (
           <button className="complete-button" onClick={handleComplete}>
             Completed
           </button>
         )}
+        <button className="delete-button" onClick={handleDelete}>
+          Delete
+        </button>
+       
       </div>
     </li>
 
